@@ -1,0 +1,442 @@
+body{
+    overflow-x: hidden;
+}
+
+.new{
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.main{
+    margin-top: 0px;
+    overflow-x: hidden;
+}
+
+.bg-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(img/pic2.jpg);
+    background-repeat: no-repeat;
+    margin: 0%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 240px;
+    margin: 0;
+    color: white;
+}
+
+.heading h1{
+  font-size: 45px;
+}
+
+.heading h4{
+  font-size: 20px;
+}
+
+.chevron {
+    margin-top: 20px;
+    font-size: 50px;
+    color: var(--accent-color);
+  }
+  
+  
+  @-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -moz-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-30px);
+      -ms-transform: translateY(-30px);
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -moz-transform: translateY(-15px);
+      -ms-transform: translateY(-15px);
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+  }
+  
+  .hero-scroll {
+    position: absolute;
+    bottom: 60px;
+    width: 110px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    padding-bottom: 40px;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+
+.my{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size:x-large;
+    font-weight:bolder;
+    padding-left: 15px;
+    text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.logo{
+    padding-top: 5px;
+    padding-bottom: 0%;
+    padding-left: 80px;
+    margin: 0px;
+}
+
+.img-1{
+    width: 700px;
+    height:450px;
+}
+
+.heading{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.middle{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.box{
+    background-color: rgb(248, 242, 242);
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    position:relative;
+    
+
+    
+}
+
+.box:hover{
+  border: 5px solid darkgray;
+}
+
+/* @keyframes bdrAnm {
+  from{border: 1px solid darkgray;}
+  to {}
+} */
+
+.para{
+    margin-top: 30px;
+}
+
+.book-1{
+    width: 100%;
+    height: 255px;
+    border-radius: 20px;
+}
+
+.book-2{
+    width: 100%;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.pic{
+    padding-left: 0%;
+    padding-right: 0px;
+}
+
+.boxes{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.bdr{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    max-width: 216.8px;
+}
+
+.clr{
+    background-color: #DCDCDC;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.t1{
+    text-align: center;
+}
+
+.c1{
+    margin: 5px;
+}
+
+.r1{
+    padding: 0%;
+    margin-top: 25px;
+}
+
+/* for person logo */
+
+.i1{
+    padding-left: 10px;
+}
+
+.i2{
+    margin: 0px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.i3{
+    margin-top: 5px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+/* modal for sign Up */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+.close {
+    color: grey;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* modal for Sign In */
+.modal_2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.close_2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close_2:hover,
+.close_2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* signIn & signUp forms */
+.hd-1{
+    text-align: center;
+    color: black;
+    font-weight: 550;
+}
+
+* {box-sizing: border-box;}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: white;
+  color: grey;
+  min-width: 50px;
+  text-align: center;
+  border: 1px solid grey;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid grey;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  font-size: medium;
+  font-weight: 200;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+  
+.btn_2 {
+  background-color: dodgerblue;
+  color: white;
+  font-size: medium;
+  font-weight: 200;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn_2:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width:1000px){
+    .img-1{
+        width: 600px;
+        height: 400px;
+    }
+
+    .middle{
+        margin-top: 50px;
+    }
+
+    .i0{
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .img-1{
+        width: 300px;
+        height: 200px;
+    }
+}

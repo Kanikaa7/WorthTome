@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worth Tome</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4260cdeea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light new" style="z-index: 99">
+        <div class="container-fluid">
+          
+          <span class="navbar-brand mb-0 logo"><img src="img/logo.png" alt="" height="40"></span>
+          <span class="navbar-brand mb-0 my">WORTH TOME</span>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" id="myBtn"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#" id="myBtn_2"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- The Modal - SignUp -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form action="">
+                <h2 class="hd-1">Sign Up</h2>
+                <hr>
+                <div class="input-container">
+                  <i class="fa fa-user icon"></i>
+                  <input class="input-field" type="text" placeholder="Username" name="usrnm">
+                </div>
+              
+                <div class="input-container">
+                  <i class="fa fa-envelope icon"></i>
+                  <input class="input-field" type="email" placeholder="Email" name="email">
+                </div>
+              
+                <div class="input-container">
+                  <i class="fa fa-key icon"></i>
+                  <input class="input-field" type="password" placeholder="Password" name="psw">
+                </div>
+
+                <center>
+                    <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6LexF0sUAAAAADiQjz9BMiSrqplrItl-tWYDSfWa&amp;co=aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmc6NDQz&amp;hl=en&amp;v=6MY32oPwFCn9SUKWt8czDsDw&amp;size=normal&amp;cb=dsvcutxfwgsi" width="304" height="78" role="presentation" name="a-384nzetk9bt" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" data-gtm-yt-inspected-6="true"></iframe>
+                </center>
+              
+                <button type="submit" class="btn">Sign Up</button>
+            </form>  
+        </div>
+  
+    </div>
+    <!-- Script for sign-up modal -->
+    <script src="SignUp.js"></script>  
+
+    
+    <!-- The Modal - SignIn -->
+    <div id="myModal_2" class="modal_2">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close_2">&times;</span>
+            <form action="">
+                <h2 class="hd-1">Sign In</h2>
+                <hr>
+                <div class="input-container">
+                  <i class="fa fa-user icon"></i>
+                  <input class="input-field" type="text" placeholder="Username or Email" name="usrnm">
+                </div>
+              
+                <div class="input-container">
+                  <i class="fa fa-key icon"></i>
+                  <input class="input-field" type="password" placeholder="Password" name="psw">
+                </div>
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+
+                <span class="psw"><a href="#">Forgot password?</a></span>
+              
+                <button type="submit" class="btn_2">Sign In</button>
+            </form>  
+        </div>
+  
+    </div>
+    <!-- Script for sign-in modal -->
+    <script src="SignIn.js"></script>   
+    
+
+    <div class="main">
+        <div class="bg-1">
+            <div class="heading">
+                <h1>Want to prepare for JEE/Neet ?</h1>
+                <h4>Then you are at the right place.</h4>
+            </div>
+            <center><span class="hero-scroll" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">Scroll down <br><a href="#services"><i class="fa fa-chevron-down bounce chevron"></i></a></span></center>
+        </div>
+    
+    
+        <!-- Services  -->
+        <div id="services">
+            <div class="middle">
+                <h1><i>Services & More</i></h1>
+                <h4>Just what you need</h4>
+            </div>
+    
+            
+            <div class="row box">
+                <div class="col-sm-6 col-md-6 pic">
+                    <img class="book-1" src="img/Science-education.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <center><h2 class="para"><a href="GetBooks.html">GET BOOKS</a></h2></center>
+                    <P>
+                        This feature is for the students who want the study material of JEE/NEET exams.They can buy the top coaching modules and do their preparation.Categories of books:
+                        <ul>
+                            <li>Subject-wise books of PCM/PCB stream.</li>
+                            <li>Referred books of every subject such as H.C. Verma(physics) ,R.D. Sharma(math),  S. Chand(Chemistry) and many more.</li>
+                            <li>Previous year paper book for all subjects.</li>
+                        </ul>
+                    </P>
+                </div>
+            </div>
+            <div class="row box">
+                <div class="col-sm-6 col-md-6">
+                    <center><h2 class="para"><a href="SellBooks.html">SELL BOOKS</a></h2></center>
+                    <P>This feature is for the students may sell their books which they have used during their preparation for JEE/NEET and after the exams, the books which are not in their use anymore. Also they can earn profit from this and help other students.They may visit this page for any further information about this.
+                    </P>
+                </div>
+                <div class="col-sm-6 col-md-6 pic">
+                    <img class="book-2" src="img/Book-selling.jpg" alt="">
+                </div>
+            </div>
+            <div class="row box">
+                <div class="col-sm-6 col-md-6 pic">
+                    <img class="book-2" src="img/onlineTest.png" alt="">
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <center><h2 class="para"><a href="Test.html">ONLINE TESTS</a></h2></center>
+                    <P>In this our aim is to prepare students to fight for the competition by providing many chances to test yourself by several mock papers by the given time limit and from this you will be able to see your growth and may improve your cocepts and learning. </P>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row clr">
+            <div class="col-md-3 t1">
+                <h2>How It</h2>
+                <h2 class="c1">Works?</h2>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-sm-1 r1 i0">
+                        <!-- <img src="img/perLogo.png" alt="" width="50px" height="30px"> -->
+                        <i class="fa fa-user" style="font-size: 30px;"></i>
+                    </div>
+                    <div class="col-sm-11 r1 i1">
+                        <h5 class="i2">Get</h5>
+                        <h5 class="i2">Registered</h5>
+                        <h5>
+                            Create a free
+                            account and
+                            start your
+                            journey. Start exploring resouces for your preparation.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-sm-1 r1 i0">
+                        <!-- <img src="img/book-logo.jpg" alt="" width="35px" height="35px"> -->
+                        <i class="fa fa-book" style="font-size: 30px;"></i>
+                    </div>
+                    <div class="col-sm-11 r1 i1">
+                        <h5 class="i2">Get or</h5>
+                        <h5 class="i2">Sell Books</h5>
+                        <h5>
+                            In get books, explore the books which will help you to prepare for JEE/Neet. 
+                            In sell books, you may sell the books which are not in use anymore.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-sm-1 r1 i0">
+                        <!-- <img src="img/test-icon.png" alt="" width="40px" height="25px"> -->
+                        <i class="fas fa-file-alt" style="font-size: 30px;"></i>
+                    </div>
+                    <div class="col-sm-11 r1 i1">
+                        <h5 class="i3">Online Tests</h5>
+                        <!-- <h5 class="i2">Registered</h5> -->
+                        <h5>
+                            Do regular analysis of your learning through continous online tests.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <footer>
+            <a href="#">FAQ</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">&copy; 2023 | Worth Tome</a>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+
+</body>
+</html>
