@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    
+    <div class="div1" style="z-index: 99">
+
+    </div>
+
+        <div class="c1">
+            <header>
+                <div class="grid-container1">
+                    <div class="grid-item2 "><a href="GetBooks.html">GetBooks</a></div>
+                    <div class="grid-item2 active"><a href="">SellBooks</a></div>
+                    <div class="grid-item2"><a href="">Tests</a></div>  
+                </div>
+            </header>
+
+            <div class="sell">
+                
+                <form action="" class="formSell"><br>
+                    <h3>Book Details: </h3><br>
+                    <div class="form-group row custom">
+                        <label id="title" class="col-lg-4 col-form-label">Book Title</label>
+                        <div class="col-lg-8">
+                            <input type="text" placeholder="Enter your book title" class="form-control-plaintext inputbox">
+                        </div>
+                    </div>
+
+                    <div class="form-group row custom">
+                        <label for="staticdetails" class="col-lg-4 col-form-label">Book Details</label>
+                        <div class="form-check form-check-block col-lg-8">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Enter book details manually</label>
+                            <br>
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Automatically; by just typing the ISBN number</label>
+                          </div>
+                    </div>
+                    
+                    <div class="form-group row custom">
+                        <label id="title" class="col-lg-4 col-form-label">ISBN</label>
+                        <div class="col-lg-8">
+                            <input type="number" placeholder="Enter 13 digit ISBN number" class="form-control-plaintext inputbox">  &nbsp  &nbsp
+                            <button type="button" class="btn btn-primary">Get Book Details</button>
+                        </div>
+                    </div>
+
+                    <div class="form-group row custom">
+                        <label for="staticdetails" class="col-lg-4 col-form-label">Book Condition</label>
+                        <div class="form-check form-check-block col-lg-8">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Excellent &nbsp &nbsp </label>
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Good &nbsp &nbsp </label>
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Fair</label>
+                          </div>
+                    </div>
+
+                    <div class="form-group row custom">
+                        <label for="" class="col-lg-4 col-form-label">Quantity Available</label>
+                        <div class="form-check form-check-block col-lg-8 ">
+                            <select name="" id="" class="inputbox">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+                    <hr class="hr">
+                    <h3>Pricing Details: </h3><br>
+                    <div class="form-group row custom">
+                        <label id="price" class="col-lg-4 col-form-label">Your Price (&#8377):</label>
+                        <div class="col-lg-8">
+                            <input type="text" placeholder="Enter your book price" class="form-control-plaintext inputbox">
+                        </div>
+                    </div>
+                    <div class="form-group row custom">
+                        <label id="buyer" class="col-lg-4 col-form-label ">Your shipping charges to buyer</label>
+                        <div class="col-lg-8">
+                            <input type="number" placeholder="Enter your shipping charges" class="form-control-plaintext inputbox">
+                            <label for=""> &nbsp  &nbsp or  &nbsp  &nbsp</label>
+                            <input type="checkbox">
+                            <label for="">Free Shipping</label>
+                        </div>
+                    </div>
+                    <div class="form-group row custom">
+                        <label id="price" class="col-lg-4 col-form-label">Preferred Payment Mode</label>
+                        <div class="col-lg-8">
+                            <label for="">After your book is sold, in what mode would you like to receive the payment</label><br>
+                            <input type="radio">
+                            <label for="">UPI Number</label> &nbsp  &nbsp  &nbsp  &nbsp 
+                            <input type="radio">
+                            <label for="">Bank Account</label>
+                        </div>
+                    </div>
+                
+                    
+                    <hr class="hr">
+                    <h3>Your Details:</h3><br>
+                    <div class="form-group row custom">
+                        <label id="name" class="col-lg-4  col-form-label">Name</label>
+                        <div class="col-lg-8">
+                            <input type="text" placeholder="Enter your name" class="form-control-plaintext inputbox">
+                        </div>
+                    </div>
+                    <div class="form-group row custom">
+                        <label id="Email" class="col-lg-4  col-form-label">Email Address</label>
+                        <div class="col-lg-8">
+                            <input type="text" placeholder="Enter your Email" class="form-control-plaintext inputbox">
+                        </div>
+                    </div>
+                    <div class="form-group row custom">
+                        <label id="number" class="col-lg-4  col-form-label">Phone Number</label>
+                        <div class="col-lg-8">
+                            <input type="number" placeholder="Phone Number"  class="form-control-plaintext inputbox">
+                        </div>
+                    </div>
+                    <div class="form-group row custom">
+                        <label id="number" class="col-lg-4 col-form-label">Pincode</label>
+                        <div class="col-lg-8">
+                            <input type="number" placeholder="Pincode"  class="form-control-plaintext inputbox">
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-primary">Sell Books</button>    
+                    <br>
+    
+                </form>
+            </div>
+            <footer>
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Refund Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">&copy; 2023 | Worth Tome</a>
+            </footer>
+
+        </div>
+
+        <!-- side icon -->
+        <div class="icon">
+            <div class="home">
+                <a href="home.html"><i class="fa-solid fa-house-chimney fa-2xl"></i></a>
+            </div>
+            
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+            </div>
+            
+            <div class="profile">
+                <i class="fa-solid fa-user fa-2xl"></i>
+            </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/d4260cdeea.js" crossorigin="anonymous"></script>
+</body>
