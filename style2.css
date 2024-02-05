@@ -415,3 +415,9 @@ footer a {
   border-radius: 5px;
   border: #fff;
 }
+
+.test img{
+  width: 100%;
+  height: auto;
+  padding-top: 35px;
+}
